@@ -1,11 +1,9 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(forest_gen)
 
-find_package(catkin_simple REQUIRED)
-catkin_simple(ALL_DEPS_REQUIRED)
+find_package(catkin REQUIRED)
 
-##########
-# EXPORT #
-##########
-cs_install()
-cs_export()
+catkin_package()
+
+install(DIRECTORY worlds DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
+install(DIRECTORY models DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})

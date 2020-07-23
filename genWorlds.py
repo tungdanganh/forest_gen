@@ -64,7 +64,7 @@ class GenXML:
     geometry_el = etree.Element('geometry')
     mesh_el = etree.Element('mesh')
     uri_el = etree.Element('uri')
-    uri_el.text = 'file://' + models_type + '/Tree' + str(mesh_num_in) + '.dae'
+    uri_el.text = 'model://' + models_type + '/Tree' + str(mesh_num_in) + '.dae'
     mesh_el.append(uri_el)
     scale_el = etree.Element('scale')
     scale_el.text = str(scale_in) + ' ' + str(scale_in) + ' ' + str(scale_in)
