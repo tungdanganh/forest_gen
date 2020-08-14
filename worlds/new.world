@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <scene>
+      <shadows>0</shadows>
+    </scene>
+    <!-- Plugins -->
+    <!-- <plugin filename="librotors_gazebo_octomap_plugin.so" name="gazebo_octomap"/>
+    <plugin filename="librotors_gazebo_ros_interface_plugin.so" name="ros_interface_plugin"/> -->
+    <!-- Physics -->
+    <physics default="0" name="default_physics" type="ode">
+      <max_step_size>0.005</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>600</real_time_update_rate>
+      <gravity>0 0 -9.8</gravity>
+      <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
+      <ode>
+        <solver>
+          <type>quick</type>
+          <iters>1000</iters>
+          <sor>1.3</sor>
+          <use_dynamic_moi_rescaling>0</use_dynamic_moi_rescaling>
+        </solver>
+        <constraints>
+          <cfm>0</cfm>
+          <erp>0.2</erp>
+          <contact_max_correcting_vel>100</contact_max_correcting_vel>
+          <contact_surface_layer>0.001</contact_surface_layer>
+        </constraints>
+      </ode>
+    </physics>
+    <include>
+      <name>easySimple Stone0</name>
+      <uri>model://Simple Stone</uri>
+      <pose>8.83520999263 -4.14252392913 0 0 0 2.45430207183 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone1</name>
+      <uri>model://Simple Stone</uri>
+      <pose>-7.7802556053 -9.17238377193 0 0 0 3.68225612953 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone2</name>
+      <uri>model://Simple Stone</uri>
+      <pose>6.56552438109 2.45733785867 0 0 0 0.650950634386 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone3</name>
+      <uri>model://Simple Stone</uri>
+      <pose>3.17261805543 -8.46869861857 0 0 0 2.72222463444 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone4</name>
+      <uri>model://Simple Stone</uri>
+      <pose>-2.39771978345 -6.04984154881 0 0 0 5.52488194206 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone5</name>
+      <uri>model://Simple Stone</uri>
+      <pose>6.99151898215 -8.12822125856 0 0 0 4.5635299136 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone6</name>
+      <uri>model://Simple Stone</uri>
+      <pose>-9.44309999868 -2.63739982777 0 0 0 2.2554921952 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone7</name>
+      <uri>model://Simple Stone</uri>
+      <pose>3.55830597118 7.90464554697 0 0 0 4.45710881457 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone8</name>
+      <uri>model://Simple Stone</uri>
+      <pose>-3.66889602484 -8.57841330216 0 0 0 5.21923680972 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone9</name>
+      <uri>model://Simple Stone</uri>
+      <pose>3.92936435872 8.98464220358 0 0 0 6.10157429594 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone10</name>
+      <uri>model://Simple Stone</uri>
+      <pose>-8.8644595627 -7.58120452221 0 0 0 2.89595915111 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone11</name>
+      <uri>model://Simple Stone</uri>
+      <pose>-9.16703135825 2.58990720804 0 0 0 1.34946841194 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone12</name>
+      <uri>model://Simple Stone</uri>
+      <pose>-1.89025132709 9.43292619381 0 0 0 1.96886511989 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone13</name>
+      <uri>model://Simple Stone</uri>
+      <pose>-1.89348584292 7.95965050275 0 0 0 6.23076617767 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone14</name>
+      <uri>model://Simple Stone</uri>
+      <pose>2.58792906182 3.03413004053 0 0 0 1.23803399623 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone15</name>
+      <uri>model://Simple Stone</uri>
+      <pose>-3.69028488716 8.05532661852 0 0 0 1.35330716268 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone16</name>
+      <uri>model://Simple Stone</uri>
+      <pose>-2.89537669576 7.82962732143 0 0 0 4.29685385433 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone17</name>
+      <uri>model://Simple Stone</uri>
+      <pose>-1.51253572091 6.79871497596 0 0 0 6.12779131242 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone18</name>
+      <uri>model://Simple Stone</uri>
+      <pose>-5.80670537673 -3.59039374177 0 0 0 1.17105800716 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone19</name>
+      <uri>model://Simple Stone</uri>
+      <pose>-7.08616094746 -0.487727475664 0 0 0 1.66440864047 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone20</name>
+      <uri>model://Simple Stone</uri>
+      <pose>-1.10640044803 3.21065897537 0 0 0 5.17352121313 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone21</name>
+      <uri>model://Simple Stone</uri>
+      <pose>3.54844643753 -8.62346385761 0 0 0 4.9524930602 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone22</name>
+      <uri>model://Simple Stone</uri>
+      <pose>-5.9467749481 -4.34504522924 0 0 0 5.68872403973 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone23</name>
+      <uri>model://Simple Stone</uri>
+      <pose>7.46485201593 -9.57980194806 0 0 0 4.86770962876 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone24</name>
+      <uri>model://Simple Stone</uri>
+      <pose>-0.712451300465 -4.95212524248 0 0 0 0.076733744709 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone25</name>
+      <uri>model://Simple Stone</uri>
+      <pose>2.08164425047 -3.29528294913 0 0 0 5.4856401875 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone26</name>
+      <uri>model://Simple Stone</uri>
+      <pose>6.53453693166 -0.955613048148 0 0 0 4.40086425057 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone27</name>
+      <uri>model://Simple Stone</uri>
+      <pose>-7.26955125249 -4.78733680529 0 0 0 1.72749111224 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone28</name>
+      <uri>model://Simple Stone</uri>
+      <pose>-5.91642670748 1.96016116474 0 0 0 4.95583223554 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone29</name>
+      <uri>model://Simple Stone</uri>
+      <pose>0.351193354957 8.26502464221 0 0 0 3.01421386952 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone30</name>
+      <uri>model://Simple Stone</uri>
+      <pose>5.66080513589 0.479077371166 0 0 0 4.66081903991 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone31</name>
+      <uri>model://Simple Stone</uri>
+      <pose>3.38791717348 4.05119347694 0 0 0 0.0240029331252 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone32</name>
+      <uri>model://Simple Stone</uri>
+      <pose>5.50821991533 5.3953966775 0 0 0 1.10374099175 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone33</name>
+      <uri>model://Simple Stone</uri>
+      <pose>1.53466016297 -4.9341768001 0 0 0 2.99312146919 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone34</name>
+      <uri>model://Simple Stone</uri>
+      <pose>4.87455704334 -7.35051908831 0 0 0 2.90122814614 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone35</name>
+      <uri>model://Simple Stone</uri>
+      <pose>8.02359118614 -9.5464370019 0 0 0 0.0512252085913 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone36</name>
+      <uri>model://Simple Stone</uri>
+      <pose>1.92026731108 -4.05983177465 0 0 0 2.42581690414 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone37</name>
+      <uri>model://Simple Stone</uri>
+      <pose>6.99814112962 -8.04290233701 0 0 0 0.343524630752 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone38</name>
+      <uri>model://Simple Stone</uri>
+      <pose>-9.28094433921 1.57785352311 0 0 0 3.18635075037 </pose>
+      <static>true</static>
+    </include>
+    <include>
+      <name>easySimple Stone39</name>
+      <uri>model://Simple Stone</uri>
+      <pose>7.66010436893 -4.64291268926 0 0 0 1.24442894763 </pose>
+      <static>true</static>
+    </include>
+  </world>
+</sdf>
